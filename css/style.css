@@ -1081,7 +1081,7 @@ Blog page
 
 .blog-post-item {
 	margin-bottom: 20px;
-	font-family: 'GoyangDeogyang';
+	font-family: "Open Sans", sans-serif;
 }
 
 .blog-post-item:last-child {
@@ -1118,7 +1118,7 @@ Blog page
 }
 
 .blog-content p{
-	font-family: 'JSDongkang-Regular';
+	font-family: "Open Sans", sans-serif;
 	font-size:16px;
 	text-indent:18px;
 	padding-right:30px;
@@ -1676,9 +1676,32 @@ Responsive
 		margin-right: 15px;
 	}
 /* 추가 */
+	.accordion_1{
+		padding: 0;
+		text-align: center;
+		display: block;
+	}
 	.accordion_1 li{
 		/* background-color: yellow; */
 		min-width: 180px;
+
+	}
+	.accordion_2_flex{
+		display: block;
+		
+	}
+	.accordion_2{
+		width: 100%;
+		padding: 0px;
+	}
+	.accordion_2 li, .accordion_2_1 li{
+		display: block;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.accordion_2_1{
+		width: 100%;
+		padding: 0px;
 	}
 	/* 추가 */
 }
@@ -1739,4 +1762,5 @@ Responsive
 	font-size:40px;
 	color:#fff;
 }
+
 
