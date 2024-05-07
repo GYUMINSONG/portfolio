@@ -1712,6 +1712,9 @@ Responsive
 	.copyright{
 		padding-top: 0;
 	}
+	.site-menu{
+		padding: 40px 48px;
+	}
 	/* 추가 */
 }
 
