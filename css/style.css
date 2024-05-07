@@ -1617,6 +1617,9 @@ Responsive
 		/* background-color: yellow; */
 		min-width: 180px;
 	}
+	/* .about-section{
+		text-align: center;
+	} */
 	/* 추가 */
 }
 
@@ -1702,6 +1705,12 @@ Responsive
 	.accordion_2_1{
 		width: 100%;
 		padding: 0px;
+	}
+	.up{
+		margin-top: -26px;
+	}
+	.copyright{
+		padding-top: 0;
 	}
 	/* 추가 */
 }
