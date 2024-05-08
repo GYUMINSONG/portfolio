@@ -1082,6 +1082,13 @@ Blog page
 .blog-post-item {
 	margin-bottom: 20px;
 	font-family: "Open Sans", sans-serif;
+	/* 추가 */
+	/* border-top: 2px solid #f8f8f8; */
+	
+	/* 추가 */
+}
+.blog-post-item h4{
+	text-align: left;
 }
 
 .blog-post-item:last-child {
@@ -1111,10 +1118,28 @@ Blog page
 .blog-content {
 	width: calc(100% - 138px);
 	background: #fff;
+	/* 추가 */
 	padding: 23px 58px 20px 58px;
+	border-radius: 20px 20px 0 0;
+	/* 추가 */
 	margin-top: -133px;
 	margin-left: 62px;
 	/* border-bottom: 10px solid #212121  */
+}
+/* 추가 */
+.designs{
+	border: 1px solid #eaeaea;
+	border-radius: 20px;
+	/* background-color: black !important; */
+	margin-top: 50px;
+	color: #fff !important;
+	margin-bottom: 100px;
+}
+.designs01{
+	color: #5A4C55;
+}
+.designs02{
+	margin: 15px 5px;
 }
 
 .blog-content p{
@@ -1126,7 +1151,6 @@ Blog page
 	}
 .blog-metas {
 	padding-top: 15px;
-	margin-bottom: 20px;
 }
 
 .blog-metas .blog-meta {
@@ -1134,13 +1158,23 @@ Blog page
 	position: relative;
 	font-size: 13px;
 	margin-right: 16px;
+	/* 추가 */
 	margin-bottom: 10px;
-	border:1px solid #aaa;
+	border: 1px solid #eaeaea;
+	/* border:1px solid #aaa; */
+	/* 추가 */
 	border-radius:20px;
+
 }
 .blog-meta a{
 	display:block;
 	padding:5px 20px;}
+
+	/* 추가 */
+	.blog-meta:hover{
+		background-color: #5a4c550b;
+		
+	}
 
 .blog-comments {
 	padding-top: 60px;
@@ -1462,7 +1496,7 @@ Responsive
 		position: relative;
 		left: 0;
 		bottom: 0;
-		padding: 60px 15px 150px;
+		padding: 20px 15px 150px;
 		text-align: center;
 		width: 100%;
 	}
@@ -1586,7 +1620,7 @@ Responsive
 		position: relative;
 		left: 0;
 		bottom: 0;
-		padding: 30px 15px 100px;
+		padding: 0px 15px 100px;
 		text-align: center;
 		width: 100%;
 	}
@@ -1632,6 +1666,8 @@ Responsive
 	display: block;	
 	}
 }
+
+/* 추가/ */
 
 /* Small Mobile :320px. */
 
@@ -1774,5 +1810,4 @@ Responsive
 	font-size:40px;
 	color:#fff;
 }
-
 
